@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Bites — Contact & Reservations</title>
+</head>
+<body>
+
+  <!-- HEADER & NAVIGATION -->
+  <header>
+    <h1>Delicious Bites</h1>
+    <p><a href="menu.html">← Back to Menu</a></p>
+  </header>
+
+  <hr>
+
+  <main>
+    <!-- CONTACT INFO SECTION -->
+    <section>
+      <h2>Get in Touch</h2>
+      <p>Have questions or want to make a reservation? Reach out to us below!</p>
+      
+      <ul>
+        <li><strong>Address:</strong> Unilag Campus, Lagos</li>
+        <li><strong>Phone:</strong> 08169189887</li>
+        <li><strong>Hours:</strong> Mon–Sun: 11:00 AM – 10:00 PM</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- RESERVATION & CONTACT FORM -->
+    <section>
+      <h2>Table Reservation & Inquiries</h2>
+
+      <form action="#" method="POST">
+        <!-- Name Input -->
+        <p>
+          <label for="fullname">Full Name:</label><br>
+          <input type="text" id="fullname" name="fullname" placeholder="John Doe" required>
+        </p>
+
+        <!-- Email Input -->
+        <p>
+          <label for="email">Email Address:</label><br>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </p>
+
+        <!-- Phone Input -->
+        <p>
+          <label for="phone">Phone Number:</label><br>
+          <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" required>
+        </p>
+
+        <!-- Party Size -->
+        <p>
+          <label for="guests">Number of Guests:</label><br>
+          <input type="number" id="guests" name="guests" min="1" max="20" value="2" required>
+        </p>
+
+        <!-- Reservation Date & Time -->
+        <p>
+          <label for="date">Reservation Date:</label><br>
+          <input type="date" id="date" name="date" required>
+        </p>
+
+        <!-- Special Requests / Message -->
+        <p>
+          <label for="message">Special Requests or Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="30" placeholder="Dietary restrictions, seating preferences, etc."></textarea>
+        </p>
+
+        <!-- Submit Button -->
+        <p>
+          <button type="submit">Submit Reservation</button>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <hr>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Delicious Bites Restaurant. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
